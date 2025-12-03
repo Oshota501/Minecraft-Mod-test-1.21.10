@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BUILD_DIR="./forge-1.21.10-60.1.0-mdk"
-OUTPUT_DIR="./kido/mods"
+BUILD_DIR="./"
+OUTPUT_DIR="../kido/mods"
 
 function try(){
     local root_dir
