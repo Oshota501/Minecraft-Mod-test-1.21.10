@@ -8,6 +8,14 @@ jdk 21 を sdkman 経由でインストール デフォルトにするか聞か�
 
 gradle もインストール。製作者本人はgradleのバージョン6を使用しているがおそらく最新でも問題ない。(こちらもsdkman経由でインストール可能)
 
+下記は使っているエディターに合わせてください。（理由は知らん）
+
+https://docs.minecraftforge.net/en/1.21.x/gettingstarted/
+
+```sh
+./gradrew genVSCodeRuns
+```
+
 # ビルド
 
 いちいちMODフォルダに移動するのは手間なのでよかったら`build.sh`を使ってください。一応下記の方法で手動で可能です。
